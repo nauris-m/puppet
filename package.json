@@ -1,0 +1,17 @@
+{
+  "name": "puppet-scripts",
+  "version": "1.0.0",
+  "description": "Scripts using Puppeteer",
+  "main": "snapshot.js",
+  "author": "nauris-m",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --require dotenv/config snap.js"
+  },
+  "dependencies": {
+    "cloudinary": "^1.13.2",
+    "dotenv": "^6.2.0",
+    "puppeteer": "^1.11.0",
+    "nodemailer": "^5.1.1"
+  }
+}
